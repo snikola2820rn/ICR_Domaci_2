@@ -1,0 +1,405 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usluge | Ageless Beauty</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-inter pt-4 dot-pattern">
+  <!-- Overlay for sidebar menu -->
+  <div class="absolute inset-0 z-10 bg-black opacity-0 transition-opacity duration-200 pointer-events-none"
+    id="overlay">
+  </div>
+
+  <!-- Sidebar menu -->
+  <div class="translate-x-full fixed top-0 bottom-0 right-0 z-20 w-64 bg-white transition-all duration-200 lg:hidden"
+    id="menu">
+    <div class="h-20 flex items-center justify-end px-4 sm:px-7 md:px-9 my-2">
+      <button class="text-iris-blue px-2 py-2 rounded-lg" id="menu-button-close" aria-label="Close menu">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-8 h-8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    <div class="px-8">
+      <div class="font-poppins flex flex-col gap-8">
+        <a href="#" class="hover:text-secondary hover:underline">Početna</a>
+        <a href="#" class="hover:text-secondary hover:underline">O nama</a>
+        <a href="#" class="hover:text-secondary hover:underline text-secondary font-semibold underline">Usluge</a>
+        <a href="#" class="hover:text-secondary hover:underline">Blog</a>
+        <a href="#" class="hover:text-secondary hover:underline">Kontakt</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="px-4 max-w-5xl mx-auto">
+    <header class="flex justify-between items-start">
+      <a href="./index.html">
+        <img src="assets/logo.png" alt="" class="h-28 md:h-36">
+      </a>
+      <div class="hidden font-poppins md:flex items-center gap-8 mt-6">
+        <a href="#" class="hover:text-secondary hover:underline">Početna</a>
+        <a href="#" class="hover:text-secondary hover:underline">O nama</a>
+        <a href="#" class="hover:text-secondary hover:underline text-secondary font-semibold underline">Usluge</a>
+        <a href="#" class="hover:text-secondary hover:underline">Blog</a>
+        <a href="#" class="hover:text-secondary hover:underline">Kontakt</a>
+      </div>
+      <div>
+        <button class="md:hidden px-2 py-2 text-black mt-2" id="menu-button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <section class="flex justify-center font-poppins">
+      <h1 class="text-2xl md:text-4xl">Pružite svojoj koži <span class="text-secondary">ljubav</span> koju
+        zaslužuje.<br>
+        Zadržite <span class="text-secondary">vreme</span> u svojim rukama.</h1>
+    </section>
+    <section class="md:flex md:justify-center font-poppins">
+      <div class="flex flex-wrap md:justify-center gap-4 md:gap-8 mt-8 md:mt-16">
+        <button class="text-xl font-regular uppercase underline hover:text-secondary transition-all duration-300"
+          id="botox-btn">Botoks</button>
+        <button class="text-xl font-regular uppercase underline hover:text-secondary transition-all duration-300"
+          id="hijaluron-btn">Hijaluron</button>
+        <button class="text-xl font-regular uppercase underline hover:text-secondary transition-all duration-300"
+          id="laser-btn">Laser</button>
+        <button class="text-xl font-regular uppercase underline hover:text-secondary transition-all duration-300"
+          id="prp-btn">PRP</button>
+        <button class="text-xl font-regular uppercase underline hover:text-secondary transition-all duration-300"
+          id="mezoterapija-btn">Mezoterapija</button>
+      </div>
+    </section>
+    <div>
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-8 md:mt-16" id="botox">
+        <div>
+          <p class="text-gray-900">Botox je revolucionarni tretman koji ciljano opušta mišiće lica, smanjujući pojavu
+            bora
+            i
+            finih linija. Sa
+            botoxom, možete postići prirodno osvežen izgled bez potrebe za hirurškim zahvatima. Tretman traje svega pola
+            sata, a rezultati su vidljivi već nakon nekoliko dana i mogu trajati do četiri meseca.</p>
+          <li class="list-none mt-4">
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Početna cena:</span><span
+                class="text-xl font-regular text-gray-900">15000 RSD</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Trajanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">30 minuta</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Rezultati vidljivi:</span><span
+                class="text-xl font-regular text-gray-900">3-7 dana nakon tretmana</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Ponavljanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">svakih 4-6 meseci</span></ul>
+          </li>
+          <div class="mt-4 flex items-center gap-4 font-poppins">
+            <button class="bg-secondary text-white px-3 py-1 text-xl">Zakaži</button>
+            <button onclick="window.location.href='./botox.html'" class="px-3 py-1 text-secondary text-xl">Saznaj
+              više</button>
+          </div>
+        </div>
+        <div class="hidden md:block">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661769653277-caeaeeb40fe1?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="rounded-lg">
+        </div>
+      </section>
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-8 md:mt-16" id="hijaluron">
+        <div>
+          <p class="text-gray-900">Vratite mladalački volumen i konture svom licu uz pomoć hijaluronskih filera. Ovaj
+            tretman pruža trenutne rezultate u popunjavanju bora, povećanju usana i
+            naglašavanju jagodica. Hijaluronska kiselina je prirodno prisutna u koži, što čini ovaj
+            tretman bezbednim i efikasnim rešenjem za dugotrajnu lepotu.</p>
+          <li class="list-none mt-4">
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Početna cena:</span><span
+                class="text-xl font-regular text-gray-900">20000 RSD</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Trajanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">45 minuta</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Rezultati vidljivi:</span><span
+                class="text-xl font-regular text-gray-900">Odmah, sa konačnim efektom nakon 1-2 nedelje</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Ponavljanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">svakih 6-12 meseci</span></ul>
+          </li>
+          <div class="mt-4 flex items-center gap-4 font-poppins">
+            <button class="bg-secondary text-white px-3 py-1 text-xl">Zakaži</button>
+            <button class="px-3 py-1 text-secondary text-xl">Saznaj više</button>
+          </div>
+        </div>
+        <div class="hidden md:block">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661295659157-036d16ef1576?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="rounded-lg">
+        </div>
+      </section>
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-8 md:mt-16" id="laser">
+        <div>
+          <p class="text-gray-900">Otkrijte moć laserskog podmlađivanja za transformaciju Vaše kože. Naš napredni
+            laserski sistem ciljano tretira nepravilnosti kože kao što su fine linije, bore,
+            pigmentacija i ožiljci od akni. Rezultati su vidljivi već nakon prvog tretmana, a Vaša
+            koža će izgledati glatko, sveže i podmlađeno.</p>
+          <li class="list-none mt-4">
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Početna cena:</span><span
+                class="text-xl font-regular text-gray-900">12000 RSD</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Trajanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">1 sat</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Rezultati vidljivi:</span><span
+                class="text-xl font-regular text-gray-900">3-7 dana nakon tretmana</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Ponavljanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">3-5 tretmana u razmaku od 4-6
+                nedelje</span></ul>
+          </li>
+          <div class="mt-4 flex items-center gap-4 font-poppins">
+            <button class="bg-secondary text-white px-3 py-1 text-xl">Zakaži</button>
+            <button class="px-3 py-1 text-secondary text-xl">Saznaj više</button>
+          </div>
+        </div>
+        <div class="hidden md:block">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661769310793-d565ade503d7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFzZXIlMjBza2luJTIwc3VyZ2VyeXxlbnwwfHwwfHx8MA%3D%3D"
+            alt="" class="rounded-lg">
+        </div>
+      </section>
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-8 md:mt-16" id="prp">
+        <div>
+          <p class="text-gray-900">Iskoristite moć Vaše krvi za prirodnu regeneraciju kože uz PRP (Platelet-Rich
+            Plasma) tretmane. Ovaj inovativni pristup koristi Vašu plazmu bogatu trombocitima
+            za stimulisanje proizvodnje kolagena i obnovu ćelija kože. Rezultati su prirodni i
+            dugotrajni, pružajući osvežen i podmlađen izgled.</p>
+          <li class="list-none mt-4">
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Početna cena:</span><span
+                class="text-xl font-regular text-gray-900">18000 RSD</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Trajanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">1 sat</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Rezultati vidljivi:</span><span
+                class="text-xl font-regular text-gray-900">Nakon 2-3 nedelje, sa kontinuiranim poboljšanjem tokom
+                narednih meseci</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Ponavljanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">1-3 tretmana u razmaku od 4-6 nedelja</span></ul>
+          </li>
+          <div class="mt-4 flex items-center gap-4 font-poppins">
+            <button class="bg-secondary text-white px-3 py-1 text-xl">Zakaži</button>
+            <button class="px-3 py-1 text-secondary text-xl">Saznaj više</button>
+          </div>
+        </div>
+        <div class="hidden md:block">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661274071510-c54d63a5f267?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="rounded-lg">
+        </div>
+      </section>
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-8 md:mt-16" id="mezoterapija">
+        <div>
+          <p class="text-gray-900">Mezoterapija je nehirurški tretman koji revitalizuje i hidrira kožu dubinskim
+            ubrizgavanjem koktela vitamina, minerala i antioksidanata. Ovaj tretman poboljšava
+            tonus i teksturu kože, smanjuje bore i fine linije, te podstiče zdrav sjaj. Idealno
+            rešenje za osvežen i podmlađen izgled bez oporavka.</p>
+          <li class="list-none mt-4">
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Početna cena:</span><span
+                class="text-xl font-regular text-gray-900">10000 RSD</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Trajanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">30 minuta</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Rezultati vidljivi:</span><span
+                class="text-xl font-regular text-gray-900">Nakon 1-2 tretmana, sa postepenim poboljšanjem</span></ul>
+
+
+            <ul class="space-x-3"><span class="text-secondary font-semibold">Ponavljanje tretmana:</span><span
+                class="text-xl font-regular text-gray-900">4-6 tretmana u razmaku od 2-4
+                nedelje</span></ul>
+          </li>
+          <div class="mt-4 flex items-center gap-4 font-poppins">
+            <button class="bg-secondary text-white px-3 py-1 text-xl">Zakaži</button>
+            <button class="px-3 py-1 text-secondary text-xl">Saznaj više</button>
+          </div>
+        </div>
+        <div class="hidden md:block">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661769023220-5addb78a2073?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="rounded-lg">
+        </div>
+      </section>
+    </div>
+
+
+
+
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-8 md:mt-16">
+      <div class="hidden md:block">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1661779396815-56fe1ca9877c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXR5JTIwcHJvZHVjdCUyMGRvY3RvciUyMGFuZCUyMHBhdGllbnQlMjBmZW1hbGV8ZW58MHx8MHx8fDA%3D"
+          alt="" class="rounded-lg">
+      </div>
+      <div class="text-right">
+        <h2 class="text-2xl font-poppins">Zakažite <span class="text-secondary">konsultacije</span></h2>
+        <p class="text-gray-900 mt-4">Nudimo besplatne konsultacije kako bismo Vam pomogli da odaberete najbolji tretman
+          za
+          Vaše potrebe. Kontaktirajte nas putem telefona ili imejla za više informacija i zakazivanje termina.</p>
+        <li class="list-none mt-4">
+          <ul class="space-x-3"><span class="text-secondary font-semibold">Telefon/</span><span
+              class="text-lg text-gray-900">+381 60 123 4567</span></ul>
+
+
+          <ul class="space-x-3"><span class="text-secondary font-semibold">Email/</span><span
+              class="text-lg text-gray-900">info@agelessbeauty.com</span></ul>
+
+
+          <ul class="space-x-3"><span class="text-secondary font-semibold">Radno vreme/</span><span
+              class="text-lg text-gray-900">ponedeljak-petak: 08:00 - 20:00</span></ul>
+
+
+          <ul class="space-x-3"><span class="text-lg text-gray-900">subota: 10:00 - 18:00</span></ul>
+        </li>
+      </div>
+    </section>
+    <section class="mt-8 md:mt-16">
+      <h2 class="text-2xl font-poppins">Zašto izabrati <span class="text-secondary">nas</span>?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+        <div class="flex items-center gap-4">
+          <div>
+            <img src="./assets/doctors.svg" alt="" class="h-32">
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-secondary font-semibold text-lg font-poppins">Iskusni doktori</h3>
+            <p class="text-gray-900 max-w-xs">Naš tim čine sertifikovani doktori i estetski hirurzi sa dugogodišnjim
+              iskustvom.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4">
+          <div>
+            <img src="./assets/lip-filler.svg" alt="" class="h-32">
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-secondary font-semibold text-lg font-poppins">Najsavremenija tehnologija</h3>
+            <p class="text-gray-900 max-w-xs">Koristimo najnovije tehnike i uređaje za najbolje rezultate.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4">
+          <div>
+            <img src="./assets/gyn.svg" alt="" class="h-32">
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-secondary font-semibold text-lg font-poppins">Individualni pristup</h3>
+            <p class="text-gray-900 max-w-xs">Svaki tretman je prilagođen Vašim specifičnim potrebama i željama.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4">
+          <div>
+            <img src="./assets/massage.svg" alt="" class="h-32">
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-secondary font-semibold text-lg font-poppins">Iskustvo</h3>
+            <p class="text-gray-900 max-w-xs">Već 10 godina pružamo vrhunske usluge podmlađivanja i nege kože i lica
+              našim
+              klijentima.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="my-8 md:my-16">
+      <h2 class="text-2xl font-poppins">Blog</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+        <div class="space-y-2 hover:cursor-pointer shadow-md">
+          <div>
+            <img
+              src="https://plus.unsplash.com/premium_photo-1683133281456-d6567e71a4e1?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="" class="rounded-lg">
+          </div>
+          <div class="space-y-1 px-4 py-2">
+            <h3 class="text-secondary font-semibold text-lg font-poppins">10 stvari za koje će vam koža biti zahvalna
+            </h3>
+            <p class="text-gray-900 max-w-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, amet...</p>
+          </div>
+        </div>
+
+        <div class="space-y-2 hover:cursor-pointer shadow-md">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1598300188904-6287d52746ad?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="" class="rounded-lg">
+          </div>
+          <div class="space-y-1 px-4 py-2">
+            <h3 class="text-secondary font-semibold text-lg font-poppins">Kako usporiti proces starenja kože?</h3>
+            <p class="text-gray-900 max-w-xs">Quibusdam quaerat illum provident delectus esse officia? Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Quasi, vel?</p>
+          </div>
+        </div>
+
+        <div class="space-y-2 hover:cursor-pointer shadow-md">
+          <div>
+            <img
+              src="https://plus.unsplash.com/premium_photo-1661485131607-067ed1dce6da?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="" class="rounded-lg">
+          </div>
+          <div class="space-y-1 px-4 py-2">
+            <h3 class="text-secondary font-semibold text-lg font-poppins">Sve što treba da znate o pilingu u 2024.</h3>
+            <p class="text-gray-900 max-w-xs">Dolore mexercitationem aculpa cab katque ofuga quidem commodi velit cum
+              itaque,
+              repellendus ut? Minus...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="py-8 bg-footer">
+    <div class="px-4 max-w-5xl mx-auto flex flex-col justify-center">
+      <div>
+        <img src="assets/logo-white.png" alt="" class="h-28 md:h-36">
+      </div>
+      <div class="flex flex-col md:flex-row md:justify-between items-start gap-8 text-white text-sm">
+        <div>
+          <p>Ageless Beauty DOO</p>
+          <p>PIB: 01234567</p>
+          <p>Matični broj: 123 456 789</p>
+          <p>Copyright &copy; 2024 GoDaddy</p>
+        </div>
+        <div class="md:text-right">
+          <p>Imate pitanja? Pozovite nas!</p>
+          <p>Ponedeljak-petak 09h-17h</p>
+          <p>+381 62 123 456</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
